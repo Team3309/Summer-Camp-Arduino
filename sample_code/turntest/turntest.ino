@@ -1,3 +1,4 @@
+// Simple program to test turning and tune constant values
 
 #include <MSMotorShield.h>
 
@@ -8,9 +9,9 @@ void setup() {
 }
 
 void turnRight() {
-  
+
   // Set one motor backward and one motor forward to turn
-  
+
   motor1.run(FORWARD);
   motor2.run(BACKWARD);
   
@@ -31,9 +32,9 @@ void turnRight() {
 }
 
 void loop() {
-  
-turnRight();
 
-delay(300000000);
+  turnRight();
+
+  while(1) { }
 }
 

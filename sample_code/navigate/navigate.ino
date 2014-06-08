@@ -1,7 +1,7 @@
-// Sample Code to navigate around an obstacle
+// Sample Code to navigate around an enclosure
 // using a sonar sensor
 // created by David Carr
-// 2013 Friarbots Summer Camp
+// 2014 Friarbots Summer Camp
 
 // These #include statements load the external 
 // Motor Sheild and Ultrasonic sensor libraries.
@@ -161,18 +161,15 @@ void loop() {
 
   }
 
+  // We exited the "while" loop so we are near an object.  
+  // Stop the motors and turn the correct direction
+
   turnRight();
 
+  // Reset the variable that holds 'distance' 
   dist=16;
   
-  // We broke the loop so we are near an object.  
-  // Stop the motors and turn the correct direction
-  
-  
-  motor1.run(FORWARD);
-  motor2.run(FORWARD);
-  delay(2000);
-  motor1.run(RELEASE);
-  motor2.run(RELEASE);
+  //We have reached the end of "void loop()"
+  // We will go back to the top of "void loop()"
 
 }

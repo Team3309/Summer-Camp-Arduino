@@ -1,7 +1,7 @@
 // Sample Code to stop a motorized vehicle with sonar
 // when it approaches an object
 // created by David Carr
-// 2013 Friarbots Summer Camp
+// 2014 Friarbots Summer Camp
 
 // These #include statements load the external 
 // Motor Sheild and Ultrasonic sensor libraries.
