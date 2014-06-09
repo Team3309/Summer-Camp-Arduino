@@ -6,8 +6,9 @@ Resources and samples for robotics summer camp
 
 #Arduino IDE
 
-Download from here:
-http://arduino.cc/en/Main/Software
+[Download from here](https://github.com/Team3309/Summer-Camp-2014/raw/master/arduino-1.0.5-r2_MSMotor_NewPing.zip)
+
+This zip includes the newest version of the Arduino IDE for Windows and the required MSMotor and NewPing libraries.
 
 Make sure to plug in the Arudnio to your machine and, if necessary, install the drivers included in the download.
 
