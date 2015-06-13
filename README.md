@@ -3,14 +3,29 @@ Summer Camp 2014
 
 Resources and samples for robotics summer camp
 
+#Setup Instructions
 
-#Arduino IDE
+##Arduino IDE
+1. Download the Arduino IDE for your platform from http://www.arduino.cc/en/Main/Software
+2. If you are using Windows, install the drivers for the Arduino Uno by following the instructions at http://www.arduino.cc/en/Guide/Windows#toc4
 
-[Download from here](https://github.com/Team3309/Summer-Camp-2014/raw/master/arduino-1.0.5-r2_MSMotor_NewPing.zip)
+##Import Libraries
+1. Download [MSMotorShield.zip](https://github.com/Team3309/Summer-Camp-Arduino/raw/master/MSMotorShield.zip) and [NewPing.zip](https://github.com/Team3309/Summer-Camp-Arduino/raw/master/NewPing.zip) and save them to any location on your computer
+2. Launch the Arduino IDE
+3. Open the **Sketch** menu -> **Include Library** -> **Add .ZIP Library**
+4. Browse to the MSMotorShield.zip file
 
-This zip includes the newest version of the Arduino IDE for Windows and the required MSMotor and NewPing libraries.
+Repeat #3-4 for NewPing.zip
 
-Make sure to plug in the Arudnio to your machine and, if necessary, install the drivers included in the download.
+##Deploying Code
+1. Download code samples [Samples.zip](https://github.com/Team3309/Summer-Camp-Arduino/raw/master/Samples.zip) and extract to any location on your computer.  You can also copy/paste the samples using the links at the bottom of this page.
+2. Connect the Arduino to your computer via the USB Cable
+3. Launch the Arduino IDE
+4. Ensure that the "Arduino Uno" is selected under the **Tools** -> **Board** menu
+5. Ensure that the Arduino device is recognized and selected under the **Tools** -> **Port** menu
+6. Open a sample from the **File** -> **Open** menu or paste one into the Editor
+7. Click the **Upload** button in the upper left toolbar of the Arduino IDE to deploy
+
 
 ##Robot Schematic
 
