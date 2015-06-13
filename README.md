@@ -1,4 +1,4 @@
-Summer Camp 2014
+Friarbots Summer Camp
 ================
 
 Resources and samples for robotics summer camp
